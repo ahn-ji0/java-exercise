@@ -4,17 +4,18 @@ import java.util.Scanner;
 
 public class CalculatorMain {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int a,b;
+
+        Scanner sc = new Scanner(System.in);
 
         a = sc.nextInt();
         b = sc.nextInt();
 
-        Calculator calculator = new Calculator();
-        System.out.println(calculator.plus(a,b));
-        System.out.println(calculator.minus(a,b));
-        System.out.println(calculator.multiply(a,b));
-        System.out.println(calculator.divide(a,b));
+        Calculator calculator = new Calculator(a,b);
+        System.out.println(calculator.plus());
+        System.out.println(calculator.minus());
+        System.out.println(calculator.multiply());
+        System.out.println(calculator.divide());
 
 
     }
