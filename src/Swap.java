@@ -1,8 +1,14 @@
 public class Swap {
-    public static void main(String[] args) {
-        int a,b;
 
-        
+    public static void main(String[] args) {
+        int a =10;
+        int b = 10;
+        int tmp;
+
+        tmp = a;
+        a = b;
+        b = tmp;
+
 
     }
 }
