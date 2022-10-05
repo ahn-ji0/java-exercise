@@ -11,12 +11,10 @@ public class RandomCalculatorMain {
         a = sc.nextInt();
 
         RandomCalculator randomCalculator = new RandomCalculator(a);
-        randomCalculator.genRandNum();
 
-        System.out.println(randomCalculator.randPlus());
-        System.out.println(randomCalculator.randMinus());
-        System.out.println(randomCalculator.randMultiply());
-        System.out.println(randomCalculator.randDivide());
-
+        System.out.println("Plus : "+randomCalculator.Plus());
+        System.out.println("Minus : "+randomCalculator.Minus());
+        System.out.println("Multiply : "+randomCalculator.Multiply());
+        System.out.println("Divide : "+randomCalculator.Divide());
     }
 }
