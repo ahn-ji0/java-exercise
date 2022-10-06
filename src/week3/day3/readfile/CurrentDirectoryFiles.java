@@ -10,4 +10,14 @@ public class CurrentDirectoryFiles {
         for(File file : files)
             System.out.println(file);
     }
+
+    /*
+    ./java_exercise.iml
+    ./out
+    ./.gitignore
+    ./.git
+    ./afile.txt
+    ./.idea
+    ./src
+    */
 }
