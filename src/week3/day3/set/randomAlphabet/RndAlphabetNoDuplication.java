@@ -11,8 +11,8 @@ public class RndAlphabetNoDuplication {
         for(int i=0; i<30; i++) {
             char r = randomAlphabetGenerator.generate(65,90);
             alphabets.add(r);
-
         }
+
         System.out.println(alphabets);
 
     }

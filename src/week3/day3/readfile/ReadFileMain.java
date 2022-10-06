@@ -7,15 +7,17 @@ import java.io.IOException;
 public class ReadFileMain {
 
     public static void main(String[] args) throws IOException {
+        String fileName = "afile.txt";
+
+        System.out.print("read one letter : ");
+        ReadFile.readOneLetter(fileName);
+
+        System.out.print("read two letters : ");
+        ReadFile.readTwoLetters(fileName);
+
         int N = 6;
-        System.out.println("read one letter:");
-        ReadFile.readOneLetter("afile.txt");
-
-        System.out.println("read two letters:");
-        ReadFile.readTwoLetters("afile.txt");
-
-        System.out.printf("read %d letters:\n",N);
-        ReadFile.readNLetters("afile.txt",6);
+        System.out.printf("read %d letters : ",N);
+        ReadFile.readNLetters(fileName,N);
 
     }
 }
