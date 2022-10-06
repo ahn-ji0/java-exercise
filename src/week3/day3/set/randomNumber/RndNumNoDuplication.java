@@ -1,4 +1,7 @@
-package week3.day3.set;
+package week3.day3.set.randomNumber;
+
+import week3.day3.set.randomNumber.NumberGenerator;
+import week3.day3.set.randomNumber.RandomNumberGenerator;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -15,6 +18,7 @@ public class RndNumNoDuplication {
         while(numbers.size() < 50){
             numbers.add(randomNumberGenerator.generate(200));
         }
+        System.out.println(numbers);
 
     }
 }
