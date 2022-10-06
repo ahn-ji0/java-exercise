@@ -1,9 +1,8 @@
 package week3.day3.map;
 
 import java.util.HashMap;
-import java.util.Map;
 
-public class MapExercise2 {
+public class AlphabetCntMyVersion {
     public static void main(String[] args) {
         String repoAddr = "https://github.com/ahn-ji0/java_exercise";
         HashMap<String,Integer> alphabetCount = new HashMap<>();
