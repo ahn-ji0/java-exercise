@@ -3,7 +3,7 @@ package week3.day3.map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MapExcercise2 {
+public class MapExercise2 {
     public static void main(String[] args) {
         String repoAddr = "https://github.com/ahn-ji0/java_exercise";
         HashMap<String,Integer> alphabetCount = new HashMap<>();
@@ -17,8 +17,6 @@ public class MapExcercise2 {
                 alphabetCount.put(tmp, alphabetCount.get(tmp)+1);
             }
         }
-        for (Map.Entry<String, Integer> entrySet : alphabetCount.entrySet()) {
-            System.out.println(entrySet.getKey() + " : " + entrySet.getValue());
-        }
+        System.out.println(alphabetCount);
     }
 }
