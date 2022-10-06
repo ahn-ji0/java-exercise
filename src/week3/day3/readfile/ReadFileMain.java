@@ -7,7 +7,15 @@ import java.io.IOException;
 public class ReadFileMain {
 
     public static void main(String[] args) throws IOException {
-        char c = ReadFile.readOneByte();
-        System.out.println(c);
+        int N = 6;
+        System.out.println("read one letter:");
+        ReadFile.readOneLetter("afile.txt");
+
+        System.out.println("read two letters:");
+        ReadFile.readTwoLetters("afile.txt");
+
+        System.out.printf("read %d letters:\n",N);
+        ReadFile.readNLetters("afile.txt",6);
+
     }
 }
