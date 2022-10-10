@@ -1,4 +1,7 @@
-package week3.day4.ooppractice;
+package week3.day4.ooppractice.parse;
+
+import week3.day4.ooppractice.PopulationMove;
+import week3.day4.ooppractice.parse.Parse;
 
 public class ParsePopulationMove implements Parse<PopulationMove> {
     @Override

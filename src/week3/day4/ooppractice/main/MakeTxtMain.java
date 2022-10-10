@@ -1,4 +1,9 @@
-package week3.day4.ooppractice;
+package week3.day4.ooppractice.main;
+
+import week3.day4.ooppractice.PopulationMove;
+import week3.day4.ooppractice.Read;
+import week3.day4.ooppractice.Write;
+import week3.day4.ooppractice.parse.ParsePopulationMove;
 
 import java.io.IOException;
 import java.util.List;
