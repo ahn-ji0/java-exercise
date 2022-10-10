@@ -17,6 +17,7 @@ public class WriteTo {
     }
     public void writeToFile(List<PopulationMove2> newList) throws IOException {
         BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+
         for(PopulationMove2 inst : newList)
             bw.write(fromToString(inst));
         bw.close();

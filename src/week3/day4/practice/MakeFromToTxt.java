@@ -13,8 +13,8 @@ public class MakeFromToTxt {
         myList = populationStatics.readLines(fileName);
         System.out.println("done");
 
-        WriteTo writeTo = new WriteTo("./from_to.txt");
-        writeTo.writeToFile(myList);
+        WriteTo writeTo2 = new WriteTo("./from_to.txt");
+        writeTo2.writeToFile(myList);
 
     }
 }
