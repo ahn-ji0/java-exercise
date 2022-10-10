@@ -11,12 +11,9 @@ public class RndNumNoDuplication {
         //랜덤 숫자 발생
         for(int i=0; i<50; i++) {
             int r = randomNumberGenerator.generate(10);
+            numbers.add(r);
         }
 
-        //중복 없이 set에 랜덤 숫자 저장
-        while(numbers.size() < 50){
-            numbers.add(randomNumberGenerator.generate(200));
-        }
         System.out.println(numbers);
 
     }

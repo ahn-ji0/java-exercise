@@ -16,7 +16,6 @@ public class CurrentDirectoryFiles {
     ./out
     ./.gitignore
     ./.git
-    ./afile.txt
     ./.idea
     ./src
     */

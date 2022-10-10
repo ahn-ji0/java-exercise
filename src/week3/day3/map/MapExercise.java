@@ -1,10 +1,8 @@
 package week3.day3.map;
 
-import week3.day2.collection.Student;
-
 import java.util.HashMap;
 
-public class MapExcercise {
+public class MapExercise {
     public static void main(String[] args) {
         //key value
         HashMap<String, String> map = new HashMap<>();

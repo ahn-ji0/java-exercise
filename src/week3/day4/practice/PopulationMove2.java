@@ -1,13 +1,10 @@
-package week3.day4;
+package week3.day4.practice;
 
-import java.io.IOException;
-import java.util.ArrayList;
-
-public class PopulationMove {
+public class PopulationMove2 {
     private int fromSido;
     private int toSido;
 
-    public PopulationMove(int fromSido, int toSido){
+    public PopulationMove2(int fromSido, int toSido){
         this.fromSido = fromSido;
         this.toSido = toSido;
     }
