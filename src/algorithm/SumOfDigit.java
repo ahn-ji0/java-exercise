@@ -1,5 +1,7 @@
 package algorithm;
 import java.util.*;
+
+/* 프로그래머스 코딩테스트 연습 > 연습문제 > 자릿수 더하기 */
 public class SumOfDigit {
     public static int solutionB(int n) {
         // %연산 이용 몫, 나머지
