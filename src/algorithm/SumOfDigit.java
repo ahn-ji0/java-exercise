@@ -1,17 +1,28 @@
 package algorithm;
 import java.util.*;
 public class SumOfDigit {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int N = sc.nextInt();
+    public static int solutionB(int n) {
+        // %연산 이용 몫, 나머지
         int answer = 0;
-        List<String> myList = List.of(String.valueOf(N).split(""));
+        while(n!=0){
+            answer += n % 10;
+            n = n / 10;
+        }
+        return answer;
+    }
+    public static int solutionA(int n){
+        //시간 초과
+        int answer = 0;
+        List<String> myList = List.of(String.valueOf(n).split(""));
 
         for(String val: myList){
             answer += Integer.parseInt(val);
         }
-        System.out.println(answer);
+        return answer;
+    }
+    public static void main(String[] args) {
+        System.out.println(solutionA(1234));
+        System.out.println(solutionB(1234));
+
     }
 }
